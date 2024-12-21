@@ -22,7 +22,7 @@ public class Singleton {
     }
 
 /*
-Still this Singleton pattern can be broken using Refelction API, clone & serialization, deserialization
+Still this Singleton can  be broken using Refelction API, clone & serialization, deserialization
  */
 
 }
