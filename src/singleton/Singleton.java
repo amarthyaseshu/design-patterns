@@ -21,6 +21,8 @@ public class Singleton {
         return s;
     }
 
-
+/*
+Still this Singleton pattern can be broken using Refelction API, clone & serialization, deserialization
+ */
 
 }
