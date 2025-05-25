@@ -1,6 +1,6 @@
 package factory;
 
-public class SaveWorld {
+public class SaveWorldFactory {
 
     public Avengers getAvenger(String problemType){
         if("easy".equals(problemType)){

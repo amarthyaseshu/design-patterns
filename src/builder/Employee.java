@@ -22,6 +22,7 @@ public class Employee {
             //  refer to its own instance. However, it does not have access to an enclosing instance of the
             //  outer class (since it is static), so OuterClass.this is invalid. Here's a breakdown:
             //  this is not allowed in static methods of the static nested class.
+            // In below return this refers to EmployeeBuilder
             return this;
         }
 

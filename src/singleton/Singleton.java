@@ -2,7 +2,7 @@ package singleton;
 
 public class Singleton {
     // static because below mtd is static
-    // volatile because if this obj is stored in cache memory then below if condn null check wont give corect result
+    // volatile because if this obj is stored in cache memory then below if condn null check wont give correct result
     public static volatile Singleton s=null;
 
     private Singleton(){
